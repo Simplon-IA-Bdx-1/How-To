@@ -15,12 +15,12 @@ On peut créer un repo en local et le pousser sur deux remotes distantes:
 - `git add remote nom-de-la-remote url/compte/perso`
 - `git add remote nom-de-l-autre-remote url/de/l/orga`
 
-Par exemple `git add remote perso git@github.com:nicoOkie/mes-notes.git`
+Par exemple `git add remote origin git@github.com:nicoOkie/mes-notes.git`
 et `git add remote orga git@github.com:Simplon-IA-Bdx-1/mes-notes-nicookie.git`
 
 on peut ensuite choisir le remote sur lequel on pousse:
 
-- `git push perso master`
+- `git push origin master`
 - `git push orga master`
 
 ## Un problème ?
